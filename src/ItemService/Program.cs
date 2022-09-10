@@ -1,4 +1,3 @@
-using ItemService.Configs;
 using ItemService.Infrastructure.Configs;
 using ItemService.Infrastructure.Extensions;
 
