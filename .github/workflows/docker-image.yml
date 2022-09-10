@@ -6,7 +6,7 @@ on:
 env:
   DOCKER_TAG: item-service
   DOCKER_PORT: 5001:5000
-  IMAGE_URL: ghcr.io/pikselhood/PkHood.ItemService:latest
+  IMAGE_URL: ghcr.io/pikselhood/item-service:latest
   CR_PAT: ${{ secrets.CR_PAT }}
   CI_REGISTRY: ghcr.io
 jobs:
