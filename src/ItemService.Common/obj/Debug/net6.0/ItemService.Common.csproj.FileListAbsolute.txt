@@ -1,0 +1,12 @@
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\bin\Debug\net6.0\ItemService.Common.deps.json
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\bin\Debug\net6.0\ItemService.Common.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\bin\Debug\net6.0\ItemService.Common.pdb
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.csproj.AssemblyReference.cache
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.AssemblyInfoInputs.cache
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.AssemblyInfo.cs
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.csproj.CoreCompileInputs.cache
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\refint\ItemService.Common.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ItemService.Common.pdb
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Common\obj\Debug\net6.0\ref\ItemService.Common.dll

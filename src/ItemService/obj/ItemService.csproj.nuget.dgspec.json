@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService\\ItemService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Common\\ItemService.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Common\\ItemService.Common.csproj",
+        "projectName": "ItemService.Common",
+        "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Common\\ItemService.Common.csproj",
+        "packagesPath": "C:\\Users\\furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furkan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj",
+        "projectName": "ItemService.Domain",
+        "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj",
+        "packagesPath": "C:\\Users\\furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furkan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Common\\ItemService.Common.csproj": {
+                "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Common\\ItemService.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Infrastructure\\ItemService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Infrastructure\\ItemService.Infrastructure.csproj",
+        "projectName": "ItemService.Infrastructure",
+        "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Infrastructure\\ItemService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furkan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj": {
+                "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService\\ItemService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService\\ItemService.csproj",
+        "projectName": "ItemService",
+        "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService\\ItemService.csproj",
+        "packagesPath": "C:\\Users\\furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furkan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj": {
+                "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Domain\\ItemService.Domain.csproj"
+              },
+              "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Infrastructure\\ItemService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\furkan\\RiderProjects\\Piksel\\PkHood.ItemService\\src\\ItemService.Infrastructure\\ItemService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

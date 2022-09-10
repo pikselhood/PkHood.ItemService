@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ItemService.Domain/1.0.0": {
+        "dependencies": {
+          "ItemService.Common": "1.0.0"
+        },
+        "runtime": {
+          "ItemService.Domain.dll": {}
+        }
+      },
+      "ItemService.Common/1.0.0": {
+        "runtime": {
+          "ItemService.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ItemService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ItemService.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

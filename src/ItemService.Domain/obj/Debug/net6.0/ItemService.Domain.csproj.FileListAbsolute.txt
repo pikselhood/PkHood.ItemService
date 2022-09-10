@@ -1,0 +1,15 @@
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\bin\Debug\net6.0\ItemService.Domain.deps.json
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\bin\Debug\net6.0\ItemService.Domain.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\bin\Debug\net6.0\ItemService.Domain.pdb
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\bin\Debug\net6.0\ItemService.Common.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\bin\Debug\net6.0\ItemService.Common.pdb
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.csproj.AssemblyReference.cache
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.AssemblyInfoInputs.cache
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.AssemblyInfo.cs
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.csproj.CopyComplete
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\refint\ItemService.Domain.dll
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ItemService.Domain.pdb
+C:\Users\furkan\RiderProjects\Piksel\PkHood.ItemService\src\ItemService.Domain\obj\Debug\net6.0\ref\ItemService.Domain.dll

@@ -1,0 +1,53 @@
+name: Docker Image CI
+on:
+  push:
+    branches: [ master ]
+  #workflow_dispatch:
+env:
+  DOCKER_TAG: item-service
+  DOCKER_PORT: 80:5000
+  IMAGE_URL: ghcr.io/pikselhood/PkHood.ItemService:latest
+  CR_PAT: ${{ secrets.CR_PAT }}
+  CI_REGISTRY: ghcr.io
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: docker login
+        run: |
+          echo $CR_PAT | docker login $CI_REGISTRY -u ${{ github.repository_owner }} --password-stdin
+
+      - name: docker build
+        run: |
+          docker build . --tag $IMAGE_URL
+
+      - name: docker push
+        run: |
+          docker push $IMAGE_URL
+  
+  Deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy in EC2
+        env:
+          RSA_PRIVATE_KEY: ${{ secrets.AWS_RSA_PRIVATE_KEY  }}
+          ACCESS_KEY_ID : ${{ secrets.AWS_ACCESS_KEY_ID  }}
+
+        run: |
+          echo "$RSA_PRIVATE_KEY" > private_key && chmod 600 private_key
+          ssh -o StrictHostKeyChecking=no -i private_key $ACCESS_KEY_ID '
+
+            #Now we have got the access of EC2 and we will start the deploy .
+            echo "'$CR_PAT'" | sudo docker login "'$CI_REGISTRY'" -u ${{ github.repository_owner }} --password-stdin
+            sudo docker rm -vf "'$DOCKER_TAG'"
+            sudo docker image prune -af
+            sudo docker pull "'$IMAGE_URL'" 
+            sudo docker run -d -p "'$DOCKER_PORT'" --name="'$DOCKER_TAG'" "'$IMAGE_URL'"
+          '
+      
